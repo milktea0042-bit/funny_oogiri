@@ -54,12 +54,6 @@ body {
   transition: background 0.4s, transform 0.4s;
 }
 
-.display.flash {
-  background: rgba(154,164,255,0.15);
-  transform: scale(1.02);
-}
-
-
 
 .placeholder {
   opacity: 0.5;

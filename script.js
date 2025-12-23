@@ -257,11 +257,11 @@ function complete() {
           clearInterval(fadeOut);
         }
       }, 20);
-    }, 800);
+    }, 5000);
 
   }, 100);
 
-  completeOverlay.classList.add("show");
+  completeOverlay.classList.remove("hidden");
 }
 
 /* ---------- ボタン ---------- */
