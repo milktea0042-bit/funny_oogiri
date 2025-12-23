@@ -2,7 +2,7 @@
    定数
 ========================================================= */
 
-// 音量（内部制御）
+// volume
 const BGM_VOLUME_NORMAL = 1.0;
 const BGM_VOLUME_COMPLETE = 0.6;
 const SE_VOLUME = 0.6;
@@ -10,7 +10,7 @@ const SE_VOLUME = 0.6;
 // CSV
 const DADARE_CSV = "dadare.csv";
 
-// BGM プレイリスト（これのみ使用）
+// BGM playlist
 const bgmTracks = [
   { src: "audio/troimerei.mp3", title: "トロイメライ", composer: "R. Schumann" },
   { src: "audio/nocturne_op9_no2.mp3", title: "ノクターン 第2番 Op.9-2", composer: "F. Chopin" },
@@ -65,7 +65,7 @@ function shuffle(array) {
 }
 
 /* =========================================================
-   CSV 読み込み
+   CSV load
 ========================================================= */
 
 async function loadDadareFromCSV() {
@@ -199,7 +199,7 @@ function drawSpectrum() {
 }
 
 /* =========================================================
-   ガチャ
+   gacha
 ========================================================= */
 
 function drawDadare() {
@@ -215,7 +215,7 @@ function drawDadare() {
 }
 
 /* =========================================================
-   コンプリート
+   complete
 ========================================================= */
 
 function complete() {
@@ -245,7 +245,7 @@ function complete() {
 }
 
 /* =========================================================
-   ボタン
+   button
 ========================================================= */
 
 function setupButton() {
@@ -265,7 +265,7 @@ function setupButton() {
 }
 
 /* =========================================================
-   初期化（唯一のエントリポイント）
+   初期化（エントリポイント）
 ========================================================= */
 
 document.addEventListener("DOMContentLoaded", async () => {
