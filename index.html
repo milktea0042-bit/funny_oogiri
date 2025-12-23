@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>大喜利</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    
+    <h1 class="title">見た人みんなが世界最悪というケツ</h1>
+       <h1 class="title"> どんなケツ？</h1>
+
+    <div id="display" class="display">
+      <span class="placeholder">ボタンを押してください</span>
+    </div>
+
+    <button id="gachaButton" class="gacha-button">
+      見る
+    </button>
+
+　　<p id="counter" class="counter"></p>
+ 
+
+    <div id="bgmInfo" class="bgm-info">
+  <span id="bgmTitle"></span>
+  <span class="bgm-separator">—</span>
+  <span id="bgmComposer"></span>
+    </div>
+
+  </main>
+
+  <audio id="bgm" preload="auto"></audio>
+  <audio id="seComplete" preload="auto"></audio>
+
+
+  <script src="script.js"></script>
+
+  <div id="completeOverlay" class="complete-overlay hidden">
+  <div class="complete-message">
+    <p class="complete-title">COMPLETE</p>
+    <p class="complete-sub">
+      全ての答えをコンプリートしました<br />暇なん？
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
