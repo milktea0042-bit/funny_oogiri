@@ -1,33 +1,68 @@
 // === Audio Volume Settings ===
 const BGM_VOLUME_NORMAL = 1.0;
-const BGM_VOLUME_COMPLETE = 0.2;
+const BGM_VOLUME_COMPLETE = 0.5;
 const SE_VOLUME_COMPLETE = 0.6;
 
 const BGM_PLAYLIST = [
-  {
-    src: "audio/troimerei.mp3",
-    title: "トロイメライ",
-    composer: "R. シューマン"
+{
+  src: "audio/troimerei.mp3",
+  title: "トロイメライ",
+  composer: "R. Schumann"
+},
+{
+  src: "audio/nocturne_op9_no2.mp3",
+  title: "ノクターン 第2番 作品9-2",
+  composer: "F. Chopin"
+},
+{
+  src: "audio/clair_de_lune.mp3",
+  title: "月の光",
+  composer: "C. Debussy"
+},
+{
+  src: "audio/pavane.mp3",
+  title: "亡き王女のためのパヴァーヌ",
+  composer: "M. Ravel"
+},
+{
+  src: "audio/la_fille_aux_cheveux_de_lin.mp3",
+  title: "亜麻色の髪の乙女",
+  composer: "C. Debussy"
+}
+   {
+    src: "bgm/gymnopedie_no1.mp3",
+    title: "ジムノペディ 第1番",
+    composer: "E. Satie"
   },
   {
-    src: "audio/nocturne_op9_no2.mp3",
-    title: "ノクターン 第2番 作品9-2",
-    composer: "F. ショパン"
+    src: "bgm/intermezzo_op118_2.mp3",
+    title: "間奏曲 イ長調, Op.118-2",
+    composer: "J. Brahms"
   },
   {
-    src: "audio/clair_de_lune.mp3",
-    title: "月の光",
-    composer: "C. ドビュッシー"
+    src: "bgm/reverie.mp3",
+    title: "夢",
+    composer: "C. Debussy"
   },
   {
-    src: "audio/pavane.mp3",
-    title: "亡き王女のためのパヴァーヌ",
-    composer: "M. ラヴェル"
+    src: "bgm/prelude_op28_4.mp3",
+    title: "前奏曲 第4番 ホ短調 Op.28-4",
+    composer: "F. Chopin"
   },
   {
-    src: "audio/la_fille_aux_cheveux_de_lin.mp3",
-    title: "亜麻色の髪の乙女",
-    composer: "C. ドビュッシー"
+    src: "bgm/air_on_g_string.mp3",
+    title: "G線上のアリア",
+    composer: "J. S. Bach"
+  },
+  {
+    src: "bgm/moonlight_1st.mp3",
+    title: "月光 第1楽章",
+    composer: "L. van Beethoven"
+  },
+  {
+    src: "bgm/consolation.mp3",
+    title: "コンソレーション（慰め）",
+    composer: "F. Liszt"
   }
 ];
 
