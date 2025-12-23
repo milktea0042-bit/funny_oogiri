@@ -28,42 +28,43 @@ const BGM_PLAYLIST = [
   src: "audio/la_fille_aux_cheveux_de_lin.mp3",
   title: "亜麻色の髪の乙女",
   composer: "C. Debussy"
+},
+
+{
+  src: "audio/gymnopedie_no1.mp3",
+  title: "ジムノペディ 第1番",
+  composer: "E. Satie"
+},
+{
+  src: "audio/intermezzo_op118_2.mp3",
+  title: "間奏曲 イ長調, Op.118-2",
+  composer: "J. Brahms"
+},
+{
+  src: "audio/reverie.mp3",
+  title: "夢",
+  composer: "C. Debussy"
+},
+{
+  src: "audio/prelude_op28_4.mp3",
+  title: "前奏曲 第4番 ホ短調 Op.28-4",
+  composer: "F. Chopin"
+},
+{
+  src: "audio/air_on_g_string.mp3",
+  title: "G線上のアリア",
+  composer: "J. S. Bach"
+},
+{
+  src: "audio/moonlight_1st.mp3",
+  title: "月光 第1楽章",
+  composer: "L. van Beethoven"
+},
+{
+  src: "audio/consolation.mp3",
+  title: "コンソレーション（慰め）",
+  composer: "F. Liszt"
 }
-   {
-    src: "bgm/gymnopedie_no1.mp3",
-    title: "ジムノペディ 第1番",
-    composer: "E. Satie"
-  },
-  {
-    src: "bgm/intermezzo_op118_2.mp3",
-    title: "間奏曲 イ長調, Op.118-2",
-    composer: "J. Brahms"
-  },
-  {
-    src: "bgm/reverie.mp3",
-    title: "夢",
-    composer: "C. Debussy"
-  },
-  {
-    src: "bgm/prelude_op28_4.mp3",
-    title: "前奏曲 第4番 ホ短調 Op.28-4",
-    composer: "F. Chopin"
-  },
-  {
-    src: "bgm/air_on_g_string.mp3",
-    title: "G線上のアリア",
-    composer: "J. S. Bach"
-  },
-  {
-    src: "bgm/moonlight_1st.mp3",
-    title: "月光 第1楽章",
-    composer: "L. van Beethoven"
-  },
-  {
-    src: "bgm/consolation.mp3",
-    title: "コンソレーション（慰め）",
-    composer: "F. Liszt"
-  }
 ];
 
 shuffleArray(BGM_PLAYLIST);
